@@ -1,0 +1,39 @@
+form {
+    max-width: 500px; /* Sets the maximum width of the form */
+    margin: 0 auto; /* Centers the form horizontally */
+    padding: 20px; /* Adds some padding to the form */
+    border: 1px solid #ccc; /* Adds a border around the form */
+    border-radius: 5px; /* Rounds the corners of the form */
+    background-color: #f7f7f7; /* Sets the background color of the form */
+  }
+  
+  label {
+    display: block; /* Displays each label on a new line */
+    margin-bottom: 10px; /* Adds some space between each label and input */
+  }
+  
+  input[type="text"], 
+  input[type="email"], 
+  textarea {
+    display: block; /* Displays each input on a new line */
+    width: 100%; /* Makes each input fill the width of its container */
+    padding: 10px; /* Adds some padding to each input */
+    margin-bottom: 20px; /* Adds some space between each input */
+    border: 1px solid #ccc; /* Adds a border around each input */
+    border-radius: 5px; /* Rounds the corners of each input */
+    box-sizing: border-box; /* Makes sure the padding is included in the input's width */
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50; /* Sets the background color of the submit button */
+    color: white; /* Sets the text color of the submit button */
+    padding: 10px 20px; /* Adds some padding to the submit button */
+    border: none; /* Removes the border from the submit button */
+    border-radius: 5px; /* Rounds the corners of the submit button */
+    cursor: pointer; /* Changes the cursor to a hand when hovering over the submit button */
+    transition: background-color 0.3s ease; /* Adds a smooth transition when the background color changes */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41; /* Changes the background color of the submit button when hovering over it */
+  }
